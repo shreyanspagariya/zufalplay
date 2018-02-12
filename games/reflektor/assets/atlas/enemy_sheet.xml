@@ -1,0 +1,11 @@
+<TextureAtlas imagePath="enemy_sheet.png">
+	<SubTexture name="enemy.png" x="0" y="68" width="32" height="32"/>
+	<SubTexture name="enemy_hit.png" x="0" y="34" width="32" height="32"/>
+	<SubTexture name="enemy_hit2.png" x="34" y="0" width="32" height="32"/>
+	<SubTexture name="enemy_t1.png" x="68" y="0" width="2" height="32"/>
+	<SubTexture name="enemy_t2.png" x="62" y="34" width="6" height="32"/>
+	<SubTexture name="enemy_t3.png" x="56" y="68" width="12" height="32"/>
+	<SubTexture name="enemy_t4.png" x="34" y="68" width="20" height="32"/>
+	<SubTexture name="enemy_t5.png" x="34" y="34" width="26" height="32"/>
+	<SubTexture name="enemy_t6.png" x="0" y="0" width="32" height="32"/>
+</TextureAtlas>

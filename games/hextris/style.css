@@ -1,0 +1,32 @@
+.gamecard
+{
+	background-color: rgba(0,0,0,0.4);
+	padding: 10px;
+}
+.gamecard:hover {
+	-webkit-box-shadow: 0 0 2px #fff;
+        box-shadow: 0 0 2px #fff;
+}
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+	color: #fff;
+}
+.btn.outline:hover {
+	background: #fff;
+	color: #000;
+}
+.versus
+{
+	margin-top: 70px;
+}
+.btn.circle {
+	background: none;
+	border-radius: 50%;
+	padding: 12px 22px;
+	color: #fff;
+}
+.btn.circle:hover {
+	background: #fff;
+	color: #000;
+}

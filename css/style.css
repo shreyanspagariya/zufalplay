@@ -1,0 +1,290 @@
+.navbar-zfp
+{
+    background-color: #FFF;
+    border-radius: 0;
+    border-color: #000000;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 2px;
+
+} 
+.navbar-zfp-inner
+{
+    background-color: #FFF;
+    border-radius: 0;
+    border-color: #382762;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.elevatewhite
+{
+    background: #FFF;
+    border-color: #000; 
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hp
+{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: url('../images/cover_mc.jpg');
+    font-family: Quicksand;
+    color: #ffffff;
+}
+
+.zfp-inner
+{
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #F2F2F2;
+    position: relative;
+    padding-top: 60px;
+}
+.zfp-inner1
+{
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background: url('../images/cover_mc.jpg');
+    font-family: Quicksand;
+    color: #ffffff;
+    background-color: #464646;
+    position: relative;
+    padding-top: 60px;
+}
+
+a:hover 
+{
+  cursor:pointer;
+}
+
+hr
+{
+    border-color: #D8D8D8;
+}
+
+#sidebar-wrapper a
+{
+    color: #2E2E2E;
+}
+
+#sidebar-wrapper a:hover
+{
+    background-color: #D8D8D8;
+}
+
+#sidebar-wrapper a:active
+{
+    background-color: #D8D8D8;
+}
+
+.hrwhite a
+{
+    color: #000000; 
+}
+.navbar-zfp-inner a
+{
+    color: #382762;
+}
+.navbar-zfp-inner a:hover
+{
+    color: #382762;
+}
+.navbar-zfp-inner a:active
+{
+    color: #000;
+}
+
+.tablehead
+{
+    background-color:#382762; 
+    color:#FFF;
+}
+
+.btn-flat
+{
+    border-radius: 0;
+}
+.trans .form-control
+{
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+.trans
+{
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+.site-desc
+{
+    padding-top: 40px;
+}
+.site-desc h1{
+    font-family: 'Sigmar One';
+}
+
+.signup-form
+{
+    padding-top: 20px;
+}
+.recaptchatable
+{
+    border-radius: 0;
+}
+h5 {
+    overflow: hidden;
+    text-align: center;
+}
+h5:before,
+h5:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.bet_wrapper
+{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+.bet_content, .stats_content
+{
+    
+}
+.bet_content h4,p
+{
+    margin-left: 20px;
+}
+.bet_option
+{
+    
+}
+.number
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.user_data,.statistics
+{
+    padding-top: 5px;
+    background-color: #FFF;
+}
+.balance
+{
+    background-color: #FFF;
+}
+.ongoing
+{
+    background-color: rgba(255,165,0,0.4);
+}
+.won
+{
+    background-color: rgba(0,255,0,0.4);
+}
+.lost
+{
+    background-color: rgba(255,0,0,0.4)
+}
+.tied
+{
+    background-color: rgba(0,128,255,0.4)
+}
+.ongoing,.won,.lost,.tied
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bet
+{
+    padding-bottom: 95px;
+}
+
+.table-zfp a
+{
+    color: #fff;
+}
+.table-zfp
+{
+    background-color: rgba(0,0,0,0.4);
+}
+.alert-zfp
+{
+    background-color: #FFF;
+    color: #000;
+    font-weight: 600;
+    border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+<<<<<<< HEAD
+
+.betdes,.prod_name
+{
+    font-size: 18px;
+}
+.footer .navbar-nav
+{
+    height: 30px;
+}
+.footer .navbar-nav > li > a
+{
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.footer .navbar-nav a
+{
+    color: #fff;
+}
+.footer .navbar-nav a:hover
+{
+    color: #000;
+}
+.footer .navbar-nav a:active
+{
+    color: #000;
+=======
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgba(0,0,0,0.7);
+}
+.betdes,.prod_name
+{
+    font-size: 18px;
+>>>>>>> e0298f28b35af4ef3bacce0c7ceaf405c66794ae
+}

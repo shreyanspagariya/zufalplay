@@ -1,0 +1,17 @@
+.notif-card
+{
+	padding: 10px;
+}
+.notif-card a
+{
+	color: #000;
+}
+.notif-card:hover {
+	-webkit-box-shadow: 0 0 2px #fff;
+        box-shadow: 0 0 2px #fff;
+}
+.unread
+{
+	background-color: #D8D8D8;
+	font-weight: 600;
+}

@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="reflektor_sheet.png">
+	<SubTexture name="ref1.png" x="18" y="0" width="16" height="64"/>
+	<SubTexture name="ref2.png" x="0" y="0" width="16" height="64"/>
+</TextureAtlas>

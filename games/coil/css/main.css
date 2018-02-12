@@ -1,0 +1,207 @@
+
+
+/*********************************************
+ * GLOBAL
+ *********************************************/
+
+body, html {
+	background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #F2F2F2;
+}
+
+
+/*********************************************
+ * HEADER
+ *********************************************/
+		#about {
+			padding-left: 0;
+			border: none;
+		}
+		#about p.credits {
+			margin: 15px 0 2px 0;
+			
+			font-style: italic;
+			color: #666;
+			font-size: 11px;
+			line-height: 1.4em;
+		}
+		#about a:hover {
+			padding: 2px 10px 2px 8px;
+		}
+		#share iframe, 
+		#share div {
+			display: inline-block;
+		}
+		#retweet-button {
+			margin-right: 6px;
+		}
+		
+a[href="http://www.w3counter.com"] {
+	display: none!important;
+}
+
+.no-canvas {
+	color: #999999;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+/*********************************************
+ * EXPERIMENT STYLES
+ *********************************************/
+
+#game {
+	margin-top: 25px;
+	background: url('../images/background.jpg');
+	
+	position: absolute;
+	display: none;
+	border: 1px solid #222222;
+	border-radius: 2px;
+	
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	color: #f4f4f4;
+	text-align: center;
+	
+	-webkit-box-shadow: 0 0 10px #000;
+	   -moz-box-shadow: 0 0 10px #000;
+	     -o-box-shadow: 0 0 10px #000;
+	        box-shadow: 0 0 10px #000;
+}
+
+#world {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#effects {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+
+#menu {
+	position: absolute;
+	display: none;
+	width: 830px;
+	height: 440px;
+	
+	background: rgba(40,60,60,0.4);
+	border-radius: 6px;
+	
+	z-index: 3;
+	
+	-webkit-box-shadow: 0 0 20px rgba(0,250,200,0.1);
+	   -moz-box-shadow: 0 0 20px rgba(0,250,200,0.1);
+	        box-shadow: 0 0 20px rgba(0,250,200,0.1);
+	
+	background-image: -moz-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
+	background-image: -ms-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
+	background-image: -o-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 500, color-stop(0, rgba(50,200,200,0.3)), color-stop(1.0, rgba(50,200,200,0)));
+	background-image: -webkit-radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%));
+	background-image: radial-gradient(center, circle closest-corner, rgba(50,200,200,0.3) 0%, rgba(50,200,200,0) 100%);
+}
+	
+	#menu h1 {
+		text-shadow: 0 0 20px rgba(20,70,60,1);
+		font-size: 86px;
+		margin: 20px 20px 15px 20px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+		.winner #menu h1,
+		.loser #menu h1 {
+			display: none;
+		}
+	
+	#menu section {
+		display: none;
+		padding: 15px;
+		margin: 5px;
+		width: 230px;
+		
+		background: rgba(0,0,0,0.1);
+		
+		vertical-align: text-top;
+		
+		border-radius: 6px;
+	}
+	
+	#menu h2 {
+		font-size: 15px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	
+	#menu .button {
+		display: inline-block;
+		padding: 6px 18px 6px 18px;
+		
+		background: rgba(0,0,0,0.4);
+		color: #fff;
+		text-decoration: none;
+		font-size: 20px;
+		
+		border-radius: 4px;
+		
+		-webkit-transition: all .19s ease-out;
+	       -moz-transition: all .19s ease-out;
+	         -o-transition: all .19s ease-out;
+	            transition: all .19s ease-out;
+	}
+	
+		#menu .button:hover {
+			background: rgba(0,0,0,0.7);
+			
+			-webkit-box-shadow: 0 0 10px rgba(0,250,200,0.2);
+			   -moz-box-shadow: 0 0 10px rgba(0,250,200,0.2);
+			     -o-box-shadow: 0 0 10px rgba(0,250,200,0.2);
+			        box-shadow: 0 0 10px rgba(0,250,200,0.2);
+		}
+	
+	#menu .welcome {
+		display: inline-block;
+	}
+
+#score {
+	margin: 20px 0 15px;
+	display: none;
+}
+	
+	#score h3 {
+		font-size: 22px;
+	}
+	
+	#score p {
+		color: rgba(100,240,255,0.9);
+		font-size: 64px;
+	}
+
+#start-button {
+	margin-top: 20px;
+}
+
+#lag-warning {
+	position: relative;
+	top: -35px;
+	color: #777;
+	display: none;
+}
+
+	#lag-warning a {
+		color: #aaa;
+		text-decoration: none;
+	}
+

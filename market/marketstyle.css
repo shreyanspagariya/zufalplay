@@ -1,0 +1,38 @@
+.thumbnail
+{
+	border-radius: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+.thumbnail .image
+{
+
+	width: 300px;
+	height: 300px;
+	opacity: 0.9;
+	margin-top: 10px;
+}
+.modal .image
+{
+
+	width: 200px;
+	height: 200px;
+}
+.thumbnail .caption
+{
+	color: #fff;
+	font-size: 18px;
+}
+.thumbnail .active_price
+{
+	font-size: 20px;
+	font-weight: 700;
+}
+.modal
+{
+	color: #000;
+}
+.modal-content
+{
+	border-radius: 0 !important;
+	
+}

@@ -1,0 +1,136 @@
+body{
+	background-color: #D5DADB;
+}
+/*
+#mainbox{
+	height: 600px;
+	width: 1000px;
+	background-color: #D5DADB;
+	border-style: solid;
+	border-color: #0B3C4D;
+	border-width:5px;
+	margin: 0 auto;
+}
+*/
+#card_1{
+	height: 320px;
+	width: 250px;
+	background-color: black;
+	position: absolute;
+	top: 175px;
+	left:530px;
+}
+
+#start_game_text{
+	color:white;
+	font-size: 30px;
+	position: absolute;
+	top:100px;
+	left: 40px;
+	font-family: 'PT Serif', serif; 
+}
+#card_player_1{
+	height: 320px;
+	width: 250px;
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #0B3C4D;
+	top:175px;
+	left:190px;
+}
+#card_player_2{
+	height: 320px;
+	width: 250px;
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #0B3C4D;
+	top:175px;
+	left:850px;
+}
+#player_1_id{
+	color: #0B3C4D;
+	font-size: 20px;
+	position: absolute;
+	font-family: 'PT Serif', serif;
+	left:55px;
+	top:-35px;
+}
+#player_2_id{
+	color: #0B3C4D;
+	font-size: 20px;
+	position: absolute;
+	font-family: 'PT Serif', serif;
+	left: 30px;
+	top:-35px;
+}
+#animator_player_1{
+	height: 320px;
+	width: 250px;
+	position: absolute;
+	top:175px;
+	left:190px;
+	z-index: 1000;
+}
+#num_top,#num_top_2{
+	font-size: 50px;
+	font-family: 'Inconsolata', ;
+	color: red;
+	font-weight: bold;
+	position: absolute;
+	left: 8px;
+}
+#num_bottom,#num_bottom_2{
+	font-size: 50px;
+	font-family: 'Inconsolata', ;
+	color: red;
+	position: absolute;
+	top:260px;
+	font-weight: bold;
+	left:190px;
+}
+#deck_type,#deck_type_2{
+	font-weight: bold;
+	font-size: 50px;
+	color:red;
+	position: absolute;
+	top:127px;
+	left:110px;
+}
+#animator_player_2{
+	height: 320px;
+	width: 250px;
+	position: absolute;
+	top:175px;
+	left:850px;
+	z-index: 0;
+}
+#cards_number_main{
+	position: absolute;
+	top:551px;
+	left:600px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+}
+#cards_number_1{
+	position: absolute;
+	top:370px;
+	left:50px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;	
+}
+#cards_number_2{
+	position: absolute;
+	top:370px;
+	left:50px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;	
+}
+#game_status{
+	font-family: 'PT Serif', serif;
+	font-size: 30px;
+	position: absolute;
+	top:100px;
+	left: 595px;
+}

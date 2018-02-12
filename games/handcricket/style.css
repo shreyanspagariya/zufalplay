@@ -1,0 +1,38 @@
+.gamecard
+{
+	background: #FFF;
+    border-color: #000; 
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+}
+.gamecard:hover {
+	
+}
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+	color: #000;
+	font-weight: bold;
+}
+.btn.outline:hover {
+	background: #D8D8D8;
+	color: #000;
+}
+.versus
+{
+	margin-top: 70px;
+}
+.btn.circle {
+	background: #D8D8D8;
+	border-radius: 50%;
+	padding: 12px 22px;
+	color: #000;
+	font-weight: 900;
+	border-width: 1px;
+	border-color: #000;
+}
+.btn.circle:hover {
+	background: #D8D8D8;
+	color: #000;
+}
